@@ -1,0 +1,27 @@
+{
+  "name": "react-fundamental",
+  "version": "1.0.0",
+  "description": "Learn the React Fundamental",
+  "homepage": "https://github.com/msvairam/React-Fundamentals-#readme",
+  "bugs": {
+    "url": "https://github.com/msvairam/React-Fundamentals-/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msvairam/React-Fundamentals-.git"
+  },
+  "license": "ISC",
+  "author": "Vairamuthu",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "2.8.3",
+    "process": "0.11.10"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}
