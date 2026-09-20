@@ -53,17 +53,27 @@ const Title = () => {
 }
 
 
+
+
 // Component Compsoition -> One Component use to another component
 const HeaderComponent = () => {
     return (
         <div className="container">
+            {Title()}
             <Title />
-            <h1>Welcome React</h1>
+            <h1>Functional Component return React Element or JSX Code</h1>
         </div>
     )
 }
 
+const title = ([
+    <div className="title">
+        Reactive Element by Variable
+    </div>,
+    <HeaderComponent />]
+)
+
 const root = ReactDom.createRoot(document.getElementById('root'));
 // console.log(root);
 
-root.render(<HeaderComponent />);
+root.render(title);
